@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import css from './ContactForm.module.css';
 import shortid from 'shortid';
+import css from './ContactForm.module.css';
 
 function ContactForm({ addContacts }) {
   const [name, setName] = useState('');
